@@ -1,4 +1,5 @@
 [![CI/CD Pipeline](https://github.com/Camila-cabarcas/banco-2025-lab/actions/workflows/build.yml/badge.svg)](https://github.com/Camila-cabarcas/banco-2025-lab/actions/workflows/build.yml)
+[![Coverage Status](https://coveralls.io/repos/github/Camila-cabarcas/banco-2025-lab/badge.svg?branch=main)](https://coveralls.io/github/Camila-cabarcas/banco-2025-lab?branch=main)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Camila-cabarcas_banco-2025-lab&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Camila-cabarcas_banco-2025-lab)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=Camila-cabarcas_banco-2025-lab&metric=coverage)](https://sonarcloud.io/summary/new_code?id=Camila-cabarcas_banco-2025-lab)
 
@@ -25,7 +26,7 @@ Banking application (Laboratorio 1 - Arquitectura de Software, UdeA): a Spring B
 
 `Unit tests → SonarCloud analysis → Build (JAR + Docker image) → Deploy to Render`
 
-* Tests run with an in-memory H2 database.
+* Tests run with an in-memory H2 database; the JaCoCo coverage report is published to SonarCloud and Coveralls.
 * The Docker image `camilacabarcas/banco2025` is published to Docker Hub only from `main`.
 * Render redeploys automatically through a deploy hook (trunk based: feature branches + pull requests to `main`).
 
