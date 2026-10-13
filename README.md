@@ -2,6 +2,14 @@
 [![Coverage Status](https://coveralls.io/repos/github/Camila-cabarcas/banco-2025-lab/badge.svg?branch=main)](https://coveralls.io/github/Camila-cabarcas/banco-2025-lab?branch=main)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Camila-cabarcas_banco-2025-lab&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Camila-cabarcas_banco-2025-lab)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=Camila-cabarcas_banco-2025-lab&metric=coverage)](https://sonarcloud.io/summary/new_code?id=Camila-cabarcas_banco-2025-lab)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=Camila-cabarcas_banco-2025-lab&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=Camila-cabarcas_banco-2025-lab)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=Camila-cabarcas_banco-2025-lab&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=Camila-cabarcas_banco-2025-lab)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Camila-cabarcas_banco-2025-lab&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=Camila-cabarcas_banco-2025-lab)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=Camila-cabarcas_banco-2025-lab&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=Camila-cabarcas_banco-2025-lab)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=Camila-cabarcas_banco-2025-lab&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=Camila-cabarcas_banco-2025-lab)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=Camila-cabarcas_banco-2025-lab&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=Camila-cabarcas_banco-2025-lab)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=Camila-cabarcas_banco-2025-lab&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=Camila-cabarcas_banco-2025-lab)
+[![Snyk](https://snyk.io/test/github/Camila-cabarcas/banco-2025-lab/badge.svg)](https://snyk.io/test/github/Camila-cabarcas/banco-2025-lab)
 
 # banco-2025-lab
 
