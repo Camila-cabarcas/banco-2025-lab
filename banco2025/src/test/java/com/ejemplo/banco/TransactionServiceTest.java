@@ -94,4 +94,26 @@ class TransactionServiceTest {
         transactionService.deleteTransaction(id);
         assertThrows(IllegalArgumentException.class, () -> transactionService.getTransactionById(id));
     }
+
+    @Test
+    void transferFailsWhenReceiverAccountIsNull() {
+        TransactionDTO request = transfer("SEND-1", null, 10.0);
+
+        assertThrows(IllegalArgumentException.class, () -> transactionService.transferMoney(request));
+    }
+
+    @Test
+    void transferFailsWhenReceiverDoesNotExist() {
+        TransactionDTO request = transfer("SEND-1", "NO-EXISTE", 10.0);
+
+        assertThrows(IllegalArgumentException.class, () -> transactionService.transferMoney(request));
+    }
+
+    @Test
+    void transactionNotFoundThrows() {
+        assertThrows(IllegalArgumentException.class, () -> transactionService.getTransactionById(999999L));
+        TransactionDTO update = transfer("SEND-1", "RECV-1", 1.0);
+        assertThrows(IllegalArgumentException.class, () -> transactionService.updateTransaction(999999L, update));
+        assertThrows(IllegalArgumentException.class, () -> transactionService.deleteTransaction(999999L));
+    }
 }
